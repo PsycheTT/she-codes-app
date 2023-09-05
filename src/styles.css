@@ -61,3 +61,8 @@ li::first-letter {
   position: relative;
   top: -34px;
 }
+
+img[src=""],
+img:not({src}) {
+  visibility: hidden;
+}
