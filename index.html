@@ -41,10 +41,10 @@
             </div>
           </form>
           <div class="overview">
-            <h1>Port of Spain</h1>
+            <h1 id="city"></h1>
             <ul>
-              <li>Monday 01:25</li>
-              <li>Clear</li>
+              <li id="date"></li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -57,14 +57,15 @@
                   alt="Clear with periodic clouds"
                 />
                 <span
-                  ><strong>27</strong><small class="units">°C | °F</small></span
+                  ><strong id="temperature"></strong
+                  ><small class="units">°C | °F</small></span
                 >
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Humidity: 83%</li>
-                <li>Wind speed: 0km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind speed: <span id="wind-speed"></span> km/h</li>
               </ul>
             </div>
           </div>
