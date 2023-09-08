@@ -46,8 +46,8 @@ li::first-letter {
 
 .weather-temperature img {
   margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  height: 100px;
+  width: 100px;
 }
 
 .weather-temperature strong {
@@ -70,4 +70,27 @@ li::first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-date {
+  opacity: 0.5;
+}
+
+.weather-forecast img {
+  max-width: 100%;
+  height: 64px;
+}
+
+.temp-max,
+.temp-min {
+  font-size: 15px;
+}
+
+.temp-min {
+  opacity: 0.5;
 }
