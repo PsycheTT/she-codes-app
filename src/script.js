@@ -130,4 +130,4 @@ let celsiusLink = document.querySelector("#celsius");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Port of Spain");
-//displayForecast();
+displayForecast();

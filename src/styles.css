@@ -1,9 +1,14 @@
-body {
+body,
+html {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-image: url(../images/pastel-mountain-sun.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  color: #878787;
+  color: #696969;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -38,6 +43,8 @@ li::first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  border: 1px solid #878787;
+  box-shadow: #878787 0px 20px 50px 5px;
 }
 
 .overview {
